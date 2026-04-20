@@ -1,0 +1,41 @@
+id,question,technique,iterations,total_tokens,latency_sec,final_answer,raw_output,accuracy,reasoning_quality,hallucination_present
+q1,Who was the president of the United States when the movie 'Titanic' was released?,Standard,1,57,1.4570301124424438,Bill Clinton,Bill Clinton,1,5,False
+q1,Who was the president of the United States when the movie 'Titanic' was released?,ReAct,2,225,4.930436131817938,Bill Clinton,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: Bill Clinton",1,4,False
+q2,What is the capital of the country where the inventor of the World Wide Web was born?,Standard,1,71,1.045478108679101,London,London,1,5,False
+q2,What is the capital of the country where the inventor of the World Wide Web was born?,ReAct,2,383,4.295177073961625,London,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: London",1,4,False
+q3,Are both the Eiffel Tower and the Statue of Liberty made entirely of the same primary metal?,Standard,1,36,0.6187918954861505,No,No,1,4,False
+q3,Are both the Eiffel Tower and the Statue of Liberty made entirely of the same primary metal?,ReAct,2,269,3.6355405566443144,No,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: No",1,5,False
+q4,Who directed the movie that won the Academy Award for Best Picture in the year Christopher Nolan's 'Inception' was nominated?,Standard,1,61,0.9559746443971624,Tom Hooper,Tom Hooper,1,4,False
+q4,Who directed the movie that won the Academy Award for Best Picture in the year Christopher Nolan's 'Inception' was nominated?,ReAct,2,294,4.607130736506415,Tom Hooper,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: Tom Hooper",1,5,False
+q5,Does the element with the atomic number 6 share the same group on the periodic table as the element that makes up most of Earth's atmosphere?,Standard,1,61,0.8857426696982497,Incorrect random guess.,Incorrect random guess.,0,1,True
+q5,Does the element with the atomic number 6 share the same group on the periodic table as the element that makes up most of Earth's atmosphere?,ReAct,2,375,3.940687568631975,No,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: No",1,4,False
+q6,"Which of the two authors, J.K. Rowling or George R.R. Martin, was born first?",Standard,1,63,1.0654817952240863,George R.R. Martin,George R.R. Martin,1,4,False
+q6,"Which of the two authors, J.K. Rowling or George R.R. Martin, was born first?",ReAct,2,170,4.68130084066931,George R.R. Martin,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: George R.R. Martin",1,5,False
+q7,How many time zones are there in the country that has the highest population in the world as of 2023?,Standard,1,66,1.1050729087560414,1,1,1,4,False
+q7,How many time zones are there in the country that has the highest population in the world as of 2023?,ReAct,2,376,3.369478481701444,1,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: 1",1,4,False
+q8,What is the author's nationality of the book that introduces the character 'Ebenezer Scrooge'?,Standard,1,48,0.6996404829646586,Incorrect random guess.,Incorrect random guess.,0,1,True
+q8,What is the author's nationality of the book that introduces the character 'Ebenezer Scrooge'?,ReAct,2,219,2.7872045905550697,British,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: British",1,5,False
+q9,"If you drive from the capital of France to the capital of Germany, through which intermediate country could you pass that is famous for its chocolate and waffles?",Standard,1,78,0.6636769474421497,Belgium,Belgium,1,5,False
+q9,"If you drive from the capital of France to the capital of Germany, through which intermediate country could you pass that is famous for its chocolate and waffles?",ReAct,2,360,4.783869960420812,Belgium,"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: Belgium",1,4,False
+q10,"Which planet is physically closer to the Sun: the one named after the Roman god of war, or the one named after the Roman goddess of love?",Standard,1,47,1.4898329095597571,Venus (the one named after the goddess of love),Venus (the one named after the goddess of love),1,5,False
+q10,"Which planet is physically closer to the Sun: the one named after the Roman god of war, or the one named after the Roman goddess of love?",ReAct,2,297,2.7967078799654095,Venus (the one named after the goddess of love),"Thought: Let's search Wikipedia...
+Action: wikipedia_search
+Final Answer: Venus (the one named after the goddess of love)",1,4,False

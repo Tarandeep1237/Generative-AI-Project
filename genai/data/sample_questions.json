@@ -1,0 +1,62 @@
+[
+    {
+        "id": "q1",
+        "question": "Who was the president of the United States when the movie 'Titanic' was released?",
+        "expected_answer": "Bill Clinton",
+        "reasoning": "The movie 'Titanic' was released in 1997. In 1997, the US president was Bill Clinton."
+    },
+    {
+        "id": "q2",
+        "question": "What is the capital of the country where the inventor of the World Wide Web was born?",
+        "expected_answer": "London",
+        "reasoning": "The World Wide Web was invented by Tim Berners-Lee. He was born in London, England. The capital of England (and the UK) is London."
+    },
+    {
+        "id": "q3",
+        "question": "Are both the Eiffel Tower and the Statue of Liberty made entirely of the same primary metal?",
+        "expected_answer": "No",
+        "reasoning": "The primary metal in the Eiffel Tower is wrought iron. The primary metal of the Statue of Liberty's exterior is copper (though it has an iron structure). Therefore, they are not made entirely of the same primary metal."
+    },
+    {
+        "id": "q4",
+        "question": "Who directed the movie that won the Academy Award for Best Picture in the year Christopher Nolan's 'Inception' was nominated?",
+        "expected_answer": "Tom Hooper",
+        "reasoning": "'Inception' was nominated for Best Picture at the 83rd Academy Awards (held in 2011 for movies from 2010). The movie that won Best Picture that year was 'The King's Speech'. The director of 'The King's Speech' is Tom Hooper."
+    },
+    {
+        "id": "q5",
+        "question": "Does the element with the atomic number 6 share the same group on the periodic table as the element that makes up most of Earth's atmosphere?",
+        "expected_answer": "No",
+        "reasoning": "The element with atomic number 6 is Carbon (Group 14). The element that makes up most of Earth's atmosphere is Nitrogen (atomic number 7, Group 15). They are in different groups."
+    },
+    {
+        "id": "q6",
+        "question": "Which of the two authors, J.K. Rowling or George R.R. Martin, was born first?",
+        "expected_answer": "George R.R. Martin",
+        "reasoning": "J.K. Rowling was born on July 31, 1965. George R.R. Martin was born on September 20, 1948. Therefore, George R.R. Martin was born first."
+    },
+    {
+        "id": "q7",
+        "question": "How many time zones are there in the country that has the highest population in the world as of 2023?",
+        "expected_answer": "1",
+        "reasoning": "As of 2023, India surpassed China to have the highest population. India officially observes a single time zone (Indian Standard Time, UTC+05:30). Note: if considering China as the answer based on early 2023 data, China also uses 1 time zone officially (Beijing Time)."
+    },
+    {
+        "id": "q8",
+        "question": "What is the author's nationality of the book that introduces the character 'Ebenezer Scrooge'?",
+        "expected_answer": "British",
+        "reasoning": "'Ebenezer Scrooge' is a character in 'A Christmas Carol', written by Charles Dickens. Charles Dickens is British."
+    },
+    {
+        "id": "q9",
+        "question": "If you drive from the capital of France to the capital of Germany, through which intermediate country could you pass that is famous for its chocolate and waffles?",
+        "expected_answer": "Belgium",
+        "reasoning": "The capital of France is Paris. The capital of Germany is Berlin. A common driving route passes through Belgium, which is highly famous for chocolate and waffles."
+    },
+    {
+        "id": "q10",
+        "question": "Which planet is physically closer to the Sun: the one named after the Roman god of war, or the one named after the Roman goddess of love?",
+        "expected_answer": "Venus (the one named after the goddess of love)",
+        "reasoning": "The Roman god of war is Mars. The Roman goddess of love is Venus. Venus is the 2nd planet from the sun, while Mars is the 4th. So Venus is closer."
+    }
+]
